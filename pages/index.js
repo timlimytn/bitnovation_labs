@@ -77,6 +77,7 @@ export default function Home() {
       <Cta />
       <Footer />
       {/* !!! CODE BLOCK FOR FUTURE USE !!! */}
+      {/* Message widget */}
       {/* <PopupWidget /> */}
     </>
   );
