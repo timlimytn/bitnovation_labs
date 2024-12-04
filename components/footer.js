@@ -35,25 +35,27 @@ export default function Footer() {
           {/* Footer Links: Product, Pricing, Blog  */}
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 justify-between">
-              {navigation.map((item, index) => (
+          {/* !!! CODE BLOCK FOR FUTURE USE !!! */}
+              {/* {navigation.map((item, index) => (
                 <Link key={index} href="/">
                   <span className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </span>
                 </Link>
-              ))}
+              ))} */}
             </div>
           </div>
           {/* Footer Links: Terms, Legal, Privacy  */}
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
+          {/* !!! CODE BLOCK FOR FUTURE USE !!! */}
+              {/* {legal.map((item, index) => (
                 <Link key={index} href="/">
                   <span className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </span>
                 </Link>
-              ))}
+              ))} */}
             </div>
           </div>
 
